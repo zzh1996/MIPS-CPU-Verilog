@@ -1,0 +1,40 @@
+    add
+    addi
+    addiu
+    addu
+    and
+    andi
+beq
+bgtz
+blez
+bne
+j
+jr
+    lb
+    lbu
+    lh
+    lhu
+    lw
+    nor
+    or
+    ori
+    sb
+    sh
+    slt
+    slti
+    sltiu
+    sltu
+    sub
+    subu
+    sw
+    xor
+    xori
+bltz
+bgez
+    lui
+    sllv
+    srav
+    srlv
+    sll
+    srl
+    sra

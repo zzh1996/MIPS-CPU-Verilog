@@ -1,0 +1,57 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/test_isim_beh.exe -prj C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/test_beh.prj work.test work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/SplitWord.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/SignExtend.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/REG_FILE.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/ipcore_dir/IMEM.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/ipcore_dir/DRAM.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/ControlUnit.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/BranchUnit.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/ALU.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/WB.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/MEM_WB.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/MEM.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/IF_ID.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/IF.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/ID_EX.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/ID.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/Hazard.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/EX_MEM.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/EX.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/CPU.v" into library work
+Analyzing Verilog file "C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module DIST_MEM_GEN_V7_2(C_FAMILY="spar...
+Compiling module IMEM
+Compiling module IF
+Compiling module IF_ID
+Compiling module ControlUnit
+Compiling module REG_FILE
+Compiling module SignExtend
+Compiling module BranchUnit
+Compiling module ID
+Compiling module ID_EX
+Compiling module ALU
+Compiling module EX
+Compiling module EX_MEM
+Compiling module DIST_MEM_GEN_V7_2(C_FAMILY="spar...
+Compiling module DRAM
+Compiling module MEM
+Compiling module MEM_WB
+Compiling module SplitWord
+Compiling module WB
+Compiling module Hazard
+Compiling module CPU
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+Compiled 23 Verilog Units
+Built simulation executable C:/Users/zzh1996/Desktop/COD/MIPS_FINAL/test_isim_beh.exe
+Fuse Memory Usage: 30644 KB
+Fuse CPU Usage: 671 ms
